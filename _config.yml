@@ -7,7 +7,7 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Edit _config.yml to set your title!
-description: This is where the description of your site will go. You should change it by editing the _config.yml file. It can be as long as you like! Happy blogging... ❤
+description: Blog of practical use of Deep Learning
 github_username: lpattori
 
 # Email and twitter are optional:
@@ -15,7 +15,7 @@ email:
 twitter_username:
 
 # Set this to true to get LaTeX math equation support
-use_math:true
+use_math: true
 
 # Add your Google Analytics ID here if you have one and want to use it
 google_analytics:
