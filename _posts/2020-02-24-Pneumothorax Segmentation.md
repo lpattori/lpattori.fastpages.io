@@ -44,5 +44,5 @@ Permissions of this strong copyleft license are conditioned on making available 
 
 ## Footnotes
 
-[^1]: quote from [Mayo Clinic](https://www.mayoclinic.org).
+[^1]: quote from [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/pneumothorax/symptoms-causes/syc-20350367).
 
