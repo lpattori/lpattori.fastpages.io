@@ -23,11 +23,11 @@ This dataset contains 12,047 chest x-ray images and 12,047 pneumothorax masks. T
 
 Image segmentation is very common in the medical fied. Is the process of taking an image and segmenting it into multiple regions of pixels. The goal is to simplify the representation of an image into something easier and meaningful to understand.
 
-The architecture used is a Dynamic Unet, I used fastai with PyTorch in [Google Colab](https://colab.research.google.com/).  A quick guide to setup Google Colab can be found on [fastai](https://course.fast.ai/start_colab.html).
+The architecture used is a Dynamic Unet, I used fastai with PyTorch in a [Google Colab](https://colab.research.google.com/) notebook. A quick guide to setup Google Colab can be found on [fastai](https://course.fast.ai/start_colab.html).
  
 ## Demoing the trained model
 
-The trained model obtained from the prevous step has beeing deployed using Starlette on Uvicorn a brief description can be found on [docs](https://blog.pattori.com/pneumo/), A demo of this model can be found [here](https://pneumot.herokuapp.com/) where you can input an image and get the segmentation.
+The trained model obtained from the prevous step has beeing deployed using [Starlette](https://www.starlette.io/) on [Uvicorn](https://www.uvicorn.org/) a brief description can be found on [docs](https://blog.pattori.com/pneumo/), A demo of this model can be found [here](https://pneumot.herokuapp.com/) where you can input an image and get the segmentation.
 
 
 ## Source Code
