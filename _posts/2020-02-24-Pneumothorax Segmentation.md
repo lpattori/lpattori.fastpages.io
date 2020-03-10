@@ -27,7 +27,7 @@ The architecture used is a Dynamic Unet, I used fastai with PyTorch in a [Google
  
 ## Demoing the trained model
 
-The trained model obtained from the prevous step has beeing deployed using [Starlette](https://www.starlette.io/) on [Uvicorn](https://www.uvicorn.org/) a brief description can be found on [docs](https://blog.pattori.com/pneumo/), A demo of this model can be found [here](https://pneumot.herokuapp.com/) where you can input an image and get the segmentation.
+The trained model obtained from the prevous step has beeing deployed using [Starlette](https://www.starlette.io/) on [Uvicorn](https://www.uvicorn.org/) a brief description can be found on [docs](https://blog.pattori.com/pneumo/), A demo of this model can be found [here](https://pneumot.herokuapp.com/) where you can input an image and get the segmentation (be patient the first time it will take a few seconds to load).
 
 
 ## Source Code
