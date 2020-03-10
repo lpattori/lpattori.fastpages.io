@@ -13,4 +13,8 @@ These are the basic tools used, in every project you will find additional docume
 
 If you can't wait or don't want to read the documentation. Here is the right place. Just be patient because the first time it will take a few seconds to load.
 
+[Kissing bug classifier](https://vinchuca.herokuapp.com/)
+
 [Pneumothorax Segmentation](https://pneumot.herokuapp.com/)
+
+[Skin cancer classifier](https://skinl.herokuapp.com/)
