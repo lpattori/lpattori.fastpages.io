@@ -1,4 +1,4 @@
-# AI Pneumothorax Segmentation
+# Pneumothorax Segmentation
 
 
 1. TOC
