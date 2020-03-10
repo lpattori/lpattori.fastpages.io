@@ -1,4 +1,5 @@
-# About
+# About me
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+Hi! I am passionate about technology and new business generation. Currently developing neural networks applications in medical, bilogical and industrial fields.
 
+You can find more about me in my [Linkedin](https://www.linkedin.com/in/pattori/) profile.
