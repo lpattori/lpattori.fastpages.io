@@ -23,7 +23,7 @@ This dataset contains 12,047 chest x-ray images and 12,047 pneumothorax masks. T
 
 Image segmentation is very common in the medical fied. Is the process of taking an image and segmenting it into multiple regions of pixels. The goal is to simplify the representation of an image into something easier and meaningful to understand.
 
-The architecture used is a Dynamic Unet, I used fastai with PyTorch in a [Google Colab](https://colab.research.google.com/) notebook. A quick guide to setup Google Colab can be found on [fastai](https://course.fast.ai/start_colab.html).
+The architecture used is a Dynamic Unet, deployed on fastai with PyTorch in a [Google Colab](https://colab.research.google.com/) notebook. A quick guide to setup Google Colab with fastai and PyTorch can be found on [Colab & fastai](https://course.fast.ai/start_colab.html).
  
 ## Demoing the trained model
 
