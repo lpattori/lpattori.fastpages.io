@@ -6,8 +6,8 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Edit _config.yml to set your title!
-description: Blog of practical use of Deep Learning
+title: Lorenzo Pattori's blog
+description: Deep Learning
 github_username: lpattori
 
 # Email and twitter are optional:
