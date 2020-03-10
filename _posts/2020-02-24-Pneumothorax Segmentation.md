@@ -1,6 +1,5 @@
 # AI Pneumothorax Segmentation
 
-On [GitHub](https://blog.pattori.com/pneumo/) brief description:
 
 1. TOC
 {:toc}
@@ -11,71 +10,39 @@ The Deep Learning neural network module has been trained with images from the [S
 
 This dataset contains 12,047 chest x-ray images and 12,047 pneumothorax masks. The images and masks are 1024x1024 and are in png format. 
 
-## Context
+## Context[^1]
 
-A pneumothorax (noo-moe-THOR-aks)[^1] is a collapsed lung. A pneumothorax occurs when air leaks into the space between your lung and chest wall. This air pushes on the outside of your lung and makes it collapse. Pneumothorax can be a complete lung collapse or a collapse of only a portion of the lung.
+>A pneumothorax (noo-moe-THOR-aks) is a collapsed lung. A pneumothorax occurs when air leaks into the space between your lung and chest wall. This air pushes on the outside of your lung and makes it collapse. Pneumothorax can be a complete lung collapse or a collapse of only a portion of the lung.
 
-A pneumothorax can be caused by a blunt or penetrating chest injury, certain medical procedures, or damage from underlying lung disease. Or it may occur for no obvious reason. Symptoms usually include sudden chest pain and shortness of breath. On some occasions, a collapsed lung can be a life-threatening event.
+>A pneumothorax can be caused by a blunt or penetrating chest injury, certain medical procedures, or damage from underlying lung disease. Or it may occur for no obvious reason. Symptoms usually include sudden chest pain and shortness of breath. On some occasions, a collapsed lung can be a life-threatening event.
 
-Treatment for a pneumothorax usually involves inserting a needle or chest tube between the ribs to remove the excess air. However, a small pneumothorax may heal on its own.
+>Treatment for a pneumothorax usually involves inserting a needle or chest tube between the ribs to remove the excess air. However, a small pneumothorax may heal on its own.
 
-[^1]: quote from [mayoclinic.org]()
 
 ## Deep Neural Network training
 
-This 
+Image segmentation is very common in the medical fied. Is the process of taking an image and segmenting it into multiple regions of pixels. The goal is to simplify the representation of an image into something easier and meaningful to understand.
 
----
+The architecture used is a Dynamic Unet, I used fastai with PyTorch in [Google Colab](https://colab.research.google.com/).  A quick guide to setup Google Colab can be found on [fastai](https://course.fast.ai/start_colab.html).
+ 
+## Demoing the trained model
 
-## Lists
+The trained model obtained from the prevous step has beeing deployed using Starlette on Uvicorn a brief description can be found on [docs](https://blog.pattori.com/pneumo/), A demo of this model can be found [here](https://pneumot.herokuapp.com/) where you can input an image and get the segmentation.
 
-Here's a list:
 
-- item 1
-- item 2
+## Source Code
 
-And a numbered list:
+The source code for this project can be found on [GitHub](https://github.com/lpattori/pneumo)
 
-1. item 1
-1. item 2
 
-## Boxes and stuff
+## License
 
-> This is a quotation
+GNU General Public License v3.0. 3.0
 
-{% include alert.html text="You can include alert boxes" %}
+Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
 
-...and...
-
-{% include info.html text="You can include info boxes" %}
-
-## Images
-
-![](/images/logo.png "fast.ai's logo")
-
-## Code
-
-General preformatted text:
-
-    # Do a thing
-    do_thing()
-
-Python code and output:
-
-```python
-# Prints '2'
-print(1+1)
-```
-
-    2
-
-## Tables
-
-| Column 1 | Column 2 |
-|-|-|
-| A thing | Another thing |
 
 ## Footnotes
 
-[^1]: This is the footnote.
+[^1]: quote from [Mayo Clinic](https://www.mayoclinic.org).
 
