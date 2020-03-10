@@ -1,4 +1,4 @@
-Welcome to this blog. This is a collection of projects in the Deep Learning field applied to different disciplines.
+Welcome to my blog. This is a collection of projects in the Deep Learning field applied to different disciplines.
 
 
 ## Sotware used:
@@ -8,3 +8,9 @@ Welcome to this blog. This is a collection of projects in the Deep Learning fiel
 - [fastai](https://www.fast.ai)
 
 These are the basic tools used, in every project you will find additional documentation with the full list of software and releases used.
+
+## In a hurry?
+
+If you can't wait or don't want to read the documentation. Here is the right place. Just be patient because the first time it will take a few seconds to load.
+
+[Pneumothorax Segmentation](https://pneumot.herokuapp.com/)
