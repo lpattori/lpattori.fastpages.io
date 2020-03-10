@@ -7,9 +7,9 @@ Welcome to my blog. This is a collection of projects in the Deep Learning field 
 - [PyTorch](https://pytorch.org/)
 - [fastai](https://www.fast.ai)
 
-These are the basic tools used, in every project you will find additional documentation with the full list of software and releases used.
+These are the basic tools used, in each project you will find additional documentation with the full list of software and releases used.
 
-## In a hurry?
+## In a hurry? Want to run the demo?
 
 If you can't wait or don't want to read the documentation. Here is the right place. Just be patient because the first time it will take a few seconds to load.
 
